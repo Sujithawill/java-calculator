@@ -501,7 +501,8 @@ public class Calculator {
             invalidExpr();
         return num;
     }
-
+    
+    /** main method */
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int cont = 1;
